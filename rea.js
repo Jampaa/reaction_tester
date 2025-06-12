@@ -9,15 +9,15 @@ var start = new Date().getTime();
             }
             function move(){
                 var left;
-                var top;
+                var right;
                 var wh;
                 left = Math.random()*300;
                 right = Math.random()*300;
                 wh = (Math.random()*100)+20;
-                document.getElementById("shape").style.left = left;
-                document.getElementById("shape").style.right = right;
-                document.getElementById("shape").style.width = wh;
-                document.getElementById("shape").style.height = wh;
+                document.getElementById("shape").style.left = left+"px";
+                document.getElementById("shape").style.right = right+"px";
+                document.getElementById("shape").style.width = wh+"px";
+                document.getElementById("shape").style.height = wh+"px";
                 document.getElementById("shape").style.display="block";
                 document.getElementById("shape").style.backgroundColor= getRandomColor();
                 start = new Date().getTime();
