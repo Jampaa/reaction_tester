@@ -13,7 +13,7 @@ var start = new Date().getTime();
                 var wh;
                 left = Math.random()*700;
                 right = Math.random()*700;
-                wh = (Math.random()*100)+20;
+                wh = (Math.random()*300)+20;
                 document.getElementById("shape").style.left = left+"px";
                 document.getElementById("shape").style.right = right+"px";
                 document.getElementById("shape").style.width = wh+"px";
